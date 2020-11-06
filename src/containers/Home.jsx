@@ -169,20 +169,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div class="row">
-            <div class="col">
-              <h1>Experts to Help You Cross Every Hurdle</h1>
-              <p></p>
-              <button class=" btn btn-warning my-2 my-sm-0" id="text-white">
-                About All Experts
-              </button>
-            </div>
-            <div class="col-md-auto">
-              <img src="../images/hero-img.jpg" alt="hero" />
-            </div>
-          </div>
-        </section>
       </main>
       <footer></footer>
     </div>
