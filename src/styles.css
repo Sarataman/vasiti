@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#text-white {
+  color: #ffffff;
+  background: #ff5c00;
+}
+
+.text-blue {
+  color: #67928a;
+}
+
+#focused li a:hover {
+  color: #67928a;
+  font-weight: 600;
+}
+
+.card-size {
+  width: 18rem;
+}
+
+#link-header a {
+  text-decoration: none;
+  color: gray;
+}
+
+.hero-img {
+  width: 536px;
+  height: 568px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.dark-bg {
+  background: #111111;
+  color: #ffffff;
+}
+
+#btn-white {
+  color: #ffffff;
+  border: 1px solid #fff;
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-decoration-color: #ff5c00;
+}
