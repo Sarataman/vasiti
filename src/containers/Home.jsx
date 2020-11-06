@@ -7,7 +7,7 @@ export default function Home() {
         <header>
           <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="#">
-              <img src="Vasiti-Logo-black.png" alt="brand logo" />
+              <img src="images/Vasiti-Logo-black.jpg" alt="brand logo" />
             </a>
             <button
               class="navbar-toggler"
@@ -98,7 +98,7 @@ export default function Home() {
               </div>
               <div class="col-lg-6">
                 <img
-                  src="Testimonial-image.png"
+                  src="images/Testimonial-image.jpg"
                   alt="hero"
                   width="536px"
                   height="568px"
@@ -112,7 +112,7 @@ export default function Home() {
             <div class="row">
               <div class="col-lg-6 jcol-mr-auto">
                 <img
-                  src="black-beautiful-ladies.png"
+                  src="images/black-beautiful-ladies.png"
                   alt="hero"
                   width="500px"
                   height="480px"
@@ -157,7 +157,9 @@ export default function Home() {
               <div class="col-6 col-lg-4">
                 <img src="" alt="" />
                 <p>
-                  <span></span>
+                  <span>
+                    <Button variant="outlined">CUSTOMER</Button>
+                  </span>
                 </p>
                 <p></p>
               </div>
