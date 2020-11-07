@@ -129,14 +129,14 @@ footer {
   background: #514d4a;
   border-radius: 5px;
   color: #ffffff !important;
-  width: 420px;
+  width: 380px;
 }
 
 .input-btn {
   margin-top: 4px;
   height: 48px;
   position: absolute;
-  left: 300px;
+  left: 260px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
@@ -158,5 +158,5 @@ footer {
 
 .icons {
   display: inline-block;
-  padding-right: 2%;;
+  padding-right: 2%;
 }
