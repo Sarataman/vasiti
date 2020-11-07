@@ -1,5 +1,9 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
+import TextField from "@material-ui/core/TextField";
+import Link from "@material-ui/core/Link";
+// import Stories from './Stories'
+
 export default function Home() {
   return (
     <div>
@@ -101,6 +105,7 @@ export default function Home() {
                   src="images/Testimonial-image.jpg"
                   alt="hero"
                   width="100%"
+                  height="100%"
                 />
               </div>
             </div>
@@ -114,6 +119,7 @@ export default function Home() {
                   src="images/black-beautiful-ladies.png"
                   alt="hero"
                   width="100%"
+                  height="100%"
                 />
               </div>
               <div className="col-lg-6">
@@ -288,7 +294,7 @@ export default function Home() {
           <br />
           <div className="container">
             <div className="row">
-              <div className="col-12 col-lg-6">
+              <div className="col-lg-6">
                 <br />
                 <br />
                 <br />
@@ -321,8 +327,14 @@ export default function Home() {
                 </p>
                 <br />
               </div>
-              <div className="col-12 col-lg-6">
-                <img src="images/woman-shoppingbag.png" alt="hero" />
+              <div className="col-lg-6">
+                <br />
+                <img
+                  src="images/woman-shoppingbag.png"
+                  alt="hero"
+                  width="100%"
+                  height="90%"
+                />
               </div>
             </div>
           </div>
@@ -437,13 +449,149 @@ export default function Home() {
         <br />
         <div className="container">
           <div className="row">
-            <div className="col-12 col-lg-6">
-              <img src="images/subscribe-banner.png" alt="" />
+            <div className="col-lg-6">
+              <img src="images/subscribe-banner.png" alt="phone" />
             </div>
-            <div className="col-12 col-lg-6"></div>
+            <div className="col-lg-6 text-white">
+              <h2>
+                Be a member of our community{" "}
+                <span role="img" aria-label="img">
+                  🎉
+                </span>{" "}
+              </h2>
+              <p>
+                We’d make sure you’re always first to know what’s happening on
+                Vasiti—thus, the world.
+              </p>
+              <form noValidate autoComplete="off">
+                <TextField
+                  id="filled-basic"
+                  label="enter your email address"
+                  variant="filled"
+                  className="input-field"
+                />
+                <Button variant="contained" size="large" className="input-btn">
+                  SUBSCRIBE
+                </Button>
+              </form>
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="container">
+          <div className="row">
+            <div className="col-6 col-lg">
+              <p className="text-white text-bold">Company</p>
+              <Link href="#Home" color="inherit">
+                About us
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Terms of Use
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Privacy Policy
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Press & Media
+              </Link>
+              <br />
+              <br />
+            </div>
+            <div className="col-6 col-lg">
+              <p className="text-white text-bold">Products</p>
+              <Link href="#Home" color="inherit">
+                Marketplace
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Magazine
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Seller
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Wholesale
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Services
+              </Link>
+              <br />
+              <br />
+            </div>
+            <div className="col-6 col-lg">
+              <p className="text-white text-bold">Careers</p>
+              <Link href="#Home" color="inherit">
+                Become a Campus Rep
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Become a Vasiti Influencer
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Become a Campus writer
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Become an Affliate
+              </Link>
+              <br />
+              <br />
+            </div>
+            <div className="col-6 col-lg">
+              <p className="text-white text-bold">Get in touch</p>
+              <Link href="#Home" color="inherit">
+                Contact us
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Partner with us
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Advertise with us
+              </Link>
+              <br />
+              <Link href="#Home" color="inherit">
+                Help/FAQs
+              </Link>
+              <br />
+              <br />
+            </div>
+            <div className="col-6 col-lg">
+              <p className="text-white text-bold">Join our community</p>
+              <Link href="#Home" color="inherit" className="icons">
+                <img src="icons/fb.png" alt="" />
+              </Link>
+              <Link href="#Home" color="inherit" className="icons">
+                <img src="icons/ig.png" alt="" />
+              </Link>
+              <Link href="#Home" color="inherit" className="icons">
+                <img src="icons/tw.png" alt="" />
+              </Link>
+              <Link href="#Home" color="inherit" className="icons">
+                <img src="icons/in.png" alt="" />
+              </Link>
+              <br />
+              <br />
+              <br />
+              <Link href="#Home" color="inherit" className="icons">
+                Email Newsletter
+              </Link>
+            </div>
           </div>
         </div>
       </footer>
+
+      {/* <Stories /> */}
     </div>
   );
 }
