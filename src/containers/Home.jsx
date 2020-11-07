@@ -54,7 +54,7 @@ export default function Home() {
         <hr />
         <div className="container font-roboto">
           <div className="header-link" id="link-header">
-            <div className="row justify-content-md-center">
+            <div className="row">
               <div className="col col-sm-4 col-lg-2 links">
                 <a href="#Home">MARKETPLACE</a>
               </div>
@@ -96,12 +96,11 @@ export default function Home() {
                   <br /> you can share your stories with us too.
                 </p>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 ">
                 <img
                   src="images/Testimonial-image.jpg"
                   alt="hero"
-                  width="536px"
-                  height="568px"
+                  width="100%"
                 />
               </div>
             </div>
@@ -110,15 +109,14 @@ export default function Home() {
         <section className="dark-bg">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-mr-auto">
+              <div className="col-lg-6">
                 <img
                   src="images/black-beautiful-ladies.png"
                   alt="hero"
-                  width="500px"
-                  height="480px"
+                  width="100%"
                 />
               </div>
-              <div className="col-lg-6 col-ml-auto">
+              <div className="col-lg-6">
                 <br />
                 <br />
                 <br />
