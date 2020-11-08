@@ -134,8 +134,11 @@ footer {
 
 .input-btn {
   margin-top: 6px;
-  position: absolute;
-  left: 258px;
+  top: -6px;
+  height: 55px;
+
+  /* position: absolute;
+  left: 258px; */
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
