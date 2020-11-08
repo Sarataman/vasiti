@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import Link from "@material-ui/core/Link";
+
 // import Stories from './Stories'
 
 export default function Home() {
@@ -444,6 +445,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+
       <footer>
         <br />
         <br />
@@ -453,6 +455,7 @@ export default function Home() {
               <img src="images/subscribe-banner.png" alt="phone" />
             </div>
             <div className="col-lg-6 text-white">
+              <br />
               <h2>
                 Be a member of our community{" "}
                 <span role="img" aria-label="img">
