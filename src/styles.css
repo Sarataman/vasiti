@@ -134,9 +134,7 @@ footer {
 
 .input-btn {
   margin-top: 6px;
-  top: -6px;
   height: 55px;
-
   /* position: absolute;
   left: 258px; */
   font-weight: 600;
@@ -147,11 +145,11 @@ footer {
   .input-field {
     width: 80vw;
   }
-  .input-btn {
+  /* .input-btn {
     display: flex;
     position: absolute;
     left: 4vw;
-  }
+  } */
 }
 
 .text-bold {
